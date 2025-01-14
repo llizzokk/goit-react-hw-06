@@ -1,0 +1,44 @@
+.contactsItem {
+  width: calc((100% - 48px) / 4);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 8px;
+  border: 1px solid #2e2f42;
+  border-radius: 4px;
+}
+
+.contactsItemWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contactsItemField {
+  display: flex;
+  gap: 4px;
+}
+
+.contactsItemText {
+  font-size: 16px;
+  text-wrap: nowrap;
+}
+
+.contactsItemBtn {
+  font-size: 16px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  background-color: #ffffff;
+  transition: border 250ms ease-in-out, background-color 250ms ease-in-out;
+}
+
+.contactsItemBtn:hover {
+  border: 1px solid #9895ab;
+  background-color: #9895ab;
+}
+
+@media screen and (max-width: 768px) {
+  .contactsItem {
+    width: 100%;
+  }
+}

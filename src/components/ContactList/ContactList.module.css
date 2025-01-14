@@ -1,0 +1,12 @@
+.contactsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .contactsList {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
